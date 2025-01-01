@@ -1,4 +1,6 @@
 # NijiApiClient
+![npm version](https://img.shields.io/npm/v/nijiapi-client)
+
 
 `NijiApiClient` is a TypeScript/JavaScript client library for interacting with the Niji API. It supports fetching various types of images from the API, handling caching, logging, and more. This client can be used in both TypeScript and JavaScript projects.
 
