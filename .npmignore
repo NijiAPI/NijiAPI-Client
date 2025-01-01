@@ -1,11 +1,15 @@
-# Ignore source code
+# Ignore source code (le code source TypeScript)
 src/
 
 # Ignore log files
 *log
 
-# Ignore TypeScript configuration files
+# Ignore TypeScript configuration files (non nécessaires pour les utilisateurs)
 tsconfig.json
 
 # Ignore package-lock.json (si tu ne veux pas l'inclure)
 package-lock.json
+
+# Ignore TypeScript declaration files en développement
+*.ts
+*.map

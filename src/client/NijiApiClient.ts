@@ -97,3 +97,4 @@ class NijiApiClient {
 }
 
 module.exports = NijiApiClient;
+export default NijiApiClient;
