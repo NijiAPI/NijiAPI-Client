@@ -15,18 +15,18 @@
 
 To install package run the following command:
 ```bash
-npm install niji-api-client
+npm install nijiapi-client
 ```
 or
 ```bash
-yarn add niji-api-client
+yarn add nijiapi-client
 ```
 
 ## Usage
 ### Typescript
 1. Import the client:
 ```typescript
-import NijiApiClient from 'niji-api-client';
+import NijiApiClient from 'nijiapi-client';
 ```
 2. Create a new instance of the client and make requests:
 ```typescript
@@ -55,7 +55,7 @@ client.getStats().then(stats => {
 ### Javascript
 1. Require the client:
 ```javascript
-const NijiApiClient = require('niji-api-client');
+const NijiApiClient = require('nijiapi-client');
 ```
 2. Create a new instance and make requests:
 ```javascript
