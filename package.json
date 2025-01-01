@@ -3,7 +3,19 @@
   "version": "0.0.1",
   "description": "A client for interacting with the Niji API",
   "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "types": "dist/NijiApiClient.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/NijiApiClient.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/NijiApiClient.d.ts",
+        "default": "./dist/index.js"
+      }
+    }
+  },
   "scripts": {
     "build": "tsc",
     "test": "echo \"No tests specified\" && exit 0",
