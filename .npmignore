@@ -1,0 +1,11 @@
+# Ignore source code
+src/
+
+# Ignore log files
+*log
+
+# Ignore TypeScript configuration files
+tsconfig.json
+
+# Ignore package-lock.json (si tu ne veux pas l'inclure)
+package-lock.json

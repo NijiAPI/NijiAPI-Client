@@ -1,0 +1,15 @@
+# Ignore les fichiers générés par TypeScript
+/dist
+
+# Ignore les fichiers de log
+*log
+
+# Ignore les dépendances installées
+/node_modules
+
+# Ignore les fichiers de configuration locaux (si tu en as)
+/tsconfig.json
+/.env
+
+# Ignore le fichier lock (si tu préfères ne pas versionner package-lock.json dans Git)
+package-lock.json
