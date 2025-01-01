@@ -1,18 +1,18 @@
 {
   "name": "nijiapi-client",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "A client for interacting with the Niji API",
-  "main": "dist/index.js",
+  "main": "dist/NijiApiClient.js",
   "types": "dist/NijiApiClient.d.ts",
   "exports": {
     ".": {
       "import": {
-        "types": "./dist/NijiApiClient.d.ts",
-        "default": "./dist/index.js"
+        "types": "./dist/client/NijiApiClient.d.ts",
+        "default": "./dist/client/NijiApiClient.js"
       },
       "require": {
-        "types": "./dist/NijiApiClient.d.ts",
-        "default": "./dist/index.js"
+        "types": "./dist/client/NijiApiClient.d.ts",
+        "default": "./dist/client/NijiApiClient.js"
       }
     }
   },
